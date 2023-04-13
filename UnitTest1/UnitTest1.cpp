@@ -49,7 +49,7 @@ namespace UnitTest1
 		{
 
 			CoolClass coolClass;
-			Assert::AreEqual(5, coolClass.Cal(3, 3));
+			Assert::AreEqual(5, coolClass.Calc(3, 3));
 		}
 		
 	};
