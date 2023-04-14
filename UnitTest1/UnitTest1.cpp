@@ -44,5 +44,13 @@ namespace UnitTest1
 			CoolClass coolClass;
 			Assert::AreEqual(5, coolClass.Ming(3, 2));
 		}
+		//must fail
+		TEST_METHOD(TestMethod6)
+		{
+
+			CoolClass coolClass;
+			Assert::AreEqual(5, coolClass.Calc(3, 3));
+		}
+		
 	};
 }
